@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316936394951",
+    "project_id": "tour-tower-43109",
+    "storage_bucket": "tour-tower-43109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316936394951:android:48800b48373102ef1c46e2",
+        "android_client_info": {
+          "package_name": "com.tourtower"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316936394951-kc013nqmbj9k8s6r0ccjvn613v6kjks4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3Z7JGbbBvOgVYMGbD2T6RHphKbwxqjxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316936394951-kc013nqmbj9k8s6r0ccjvn613v6kjks4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
