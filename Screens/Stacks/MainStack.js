@@ -1,8 +1,7 @@
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import SplashScreen from '../SplashScreen';
-import LoadScreen from '../LoadScreen';
+import HomeScreen from './../HomeScreen';
 
 const MainStacks = createNativeStackNavigator();
 
@@ -16,13 +15,12 @@ const MainStack = () => {
           gestureDirection: 'horizontal',
           animation: 'flip',
         }}>
-        <MainStacks.Screen name="LoadScreen" component={LoadScreen} />
         <MainStacks.Screen
           options={{
             animation: 'slide_from_right',
           }}
-          name="SplashScreen"
-          component={SplashScreen}
+          name="HomeScreen"
+          component={HomeScreen}
         />
       </MainStacks.Navigator>
     </NavigationContainer>

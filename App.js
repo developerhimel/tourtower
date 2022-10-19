@@ -22,12 +22,12 @@ const App = () => {
   if (initializing) return <ActivityIndicator size={'large'} />;
   return (
     <PaperProvider>
-      <StatusBar barStyle={'dark-content'} backgroundColor={'#ffffff'} />
-      {/* <StatusBar
+      {/* <StatusBar barStyle={'dark-content'} backgroundColor={'#ffffff'} /> */}
+      <StatusBar
         barStyle={'dark-content'}
         translucent
         backgroundColor="transparent"
-      /> */}
+      />
       {!user ? <RootStack /> : <MainStack />}
     </PaperProvider>
   );
